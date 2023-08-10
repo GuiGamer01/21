@@ -86,8 +86,8 @@ function draw() {
         }
      jogador.velocityY = jogador.velocityY + 0.5;
      jogador.collide(PisoInvisivel);
-
-     // if (BolaDeFogo.isTouching(PLAYER)) {
+     drawSprites();
+     // if (BolaDeFogo.isTouching(Inimigo)) {
      //estadoDoJogo = end;
      //}
 
@@ -100,7 +100,7 @@ function draw() {
         //     //     if (touches.length > 0 || mousePressedOver(Restart)) {
         //     //         touches = [];
 
-        drawSprites();
+        
     }
 }
 
